@@ -1,0 +1,102 @@
+@charset "ISO-8859-1";
+
+@import
+	url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700&display=swap')
+	;
+
+header {
+	position: fixed;
+	top: 0;
+	z-index: 100;
+	width: 100%;
+}
+#navbar {
+	position: relative;
+	padding: 20px 60px;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	background-color: rgba(255, 247, 30, 0.8);
+}
+
+#navbar a {
+	position: relative;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	font-size: 30px;
+	font-weight: 600;
+	color: #1c1b0e;
+	text-transform: uppercase;
+	text-decoration: none;
+}
+
+#navbar #actionbtn {
+	position: relative;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+#navbar #actionbtn a {
+	position: relative;
+	margin: 0 5px;
+	padding: 10px 20px;
+	font-size: 18px;
+	font-weight: 500;
+	color: #1c1b0e;
+	text-transform: capitalize;
+	text-decoration: none;
+	background: rgba(249, 255, 192, 1);
+	border: 2px solid rgba(255, 247, 30, 0.8);
+	border-radius: 6px;
+}
+
+body {
+	font-family: "Roboto", sans-serif !important;
+}
+main {
+	
+}
+
+table {
+	width: 100%;
+	border-collapse: collapse;
+}
+
+th, td {
+	padding: 10px;
+	text-align: center;
+	border-bottom: 1px solid #ddd;
+}
+
+th {
+	background-color: rgb(253, 203, 38);
+}
+
+.item-photo {
+	width: 80px;
+	height: 120px;
+	object-fit: cover;
+}
+
+.quantity-btn {
+	cursor: pointer;
+}
+
+.placeorder button{
+	background-color: rgb(253, 203, 38);
+	padding: 10px 20px;
+	margin: 30px 0px 0px 1250px;
+	font-size: 20px;
+}
+
+.deletebutton {
+	background-color: red;
+	color: white;
+	border: none;
+	padding: 5px 10px;
+	cursor: pointer;
+}
+
+
